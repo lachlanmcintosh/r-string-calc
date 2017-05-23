@@ -7,6 +7,7 @@ compute = function(input_string) {
     return(num0 + num1)
   } else {
     print('unknown operator!')
-    return(0)
+    #return(0)
+    return(NA)
   }
 }
